@@ -14,6 +14,9 @@ public class WebController {
 	@RequestMapping("toadd.do")
 	public String toadd(){
 		return "add";
+		
+		
+		
 	}
 	@RequestMapping("add.do")
 	@ResponseBody
