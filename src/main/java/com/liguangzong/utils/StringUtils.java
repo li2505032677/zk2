@@ -31,6 +31,7 @@ public class StringUtils {
 				boolean kong = StringUtils.isKong(text);
 				//如果不为空则进行正则判断
 				if (!kong) {
+					
 					Pattern pattern = Pattern.compile("(1[34]?[31]?[32]?[33]?)\\d{8}");
 					Matcher matcher = pattern.matcher(text);
 					if (matcher.matches()) {
